@@ -5,7 +5,7 @@ Need placeholder images for your next iOS Project? Try Kittens.
 
 ## Description
 
-CLPKittenPlaceholder is a category on UIImageView which leverages the awesome power of [placekitten](placekitten.com) to give you quick access to the cutest placeholder images of all time. Usage is simple:
+CLPKittenPlaceholder is a category on UIImageView which leverages the awesome power of [placekitten](http://placekitten.com) to give you quick access to the cutest placeholder images of all time. Usage is simple:
 
 ```
 	#import "UIImageView+CLPKittenPlaceholder.h"
