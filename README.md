@@ -1,7 +1,7 @@
 CLPKittenPlaceholder
 ====================
 
-Need placeholder images for your next Mac or iOS Project? Try Kittens.
+Need placeholder images for your next iOS Project? Try Kittens.
 
 ## Description
 
