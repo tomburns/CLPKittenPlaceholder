@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F56C64A186090F1006D2A9D /* UIImageView+CLPKittenPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F56C649186090F1006D2A9D /* UIImageView+CLPKittenPlaceholder.m */; };
+		1F56C64F18609988006D2A9D /* KTNSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F56C64D18609988006D2A9D /* KTNSampleViewController.m */; };
+		1F56C65018609988006D2A9D /* KTNSampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F56C64E18609988006D2A9D /* KTNSampleViewController.xib */; };
+		1FA16E5A18608EDF00D51806 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA16E5918608EDF00D51806 /* Foundation.framework */; };
+		1FA16E5C18608EDF00D51806 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA16E5B18608EDF00D51806 /* CoreGraphics.framework */; };
+		1FA16E5E18608EDF00D51806 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA16E5D18608EDF00D51806 /* UIKit.framework */; };
+		1FA16E6418608EDF00D51806 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FA16E6218608EDF00D51806 /* InfoPlist.strings */; };
+		1FA16E6618608EDF00D51806 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA16E6518608EDF00D51806 /* main.m */; };
+		1FA16E6A18608EDF00D51806 /* KTNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA16E6918608EDF00D51806 /* KTNAppDelegate.m */; };
+		1FA16E6C18608EDF00D51806 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FA16E6B18608EDF00D51806 /* Images.xcassets */; };
+		1FA16E7318608EDF00D51806 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA16E7218608EDF00D51806 /* XCTest.framework */; };
+		1FA16E7418608EDF00D51806 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA16E5918608EDF00D51806 /* Foundation.framework */; };
+		1FA16E7518608EDF00D51806 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA16E5D18608EDF00D51806 /* UIKit.framework */; };
+		1FA16E7D18608EDF00D51806 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FA16E7B18608EDF00D51806 /* InfoPlist.strings */; };
+		1FA16E7F18608EDF00D51806 /* KittenPlaceholderSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA16E7E18608EDF00D51806 /* KittenPlaceholderSampleTests.m */; };
+		B5AAC7CAECB04853BAF009AB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A816B9F52C84918B231410E /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FA16E7618608EDF00D51806 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FA16E4E18608EDF00D51806 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FA16E5518608EDF00D51806;
+			remoteInfo = KittenPlaceholderSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F56C648186090F1006D2A9D /* UIImageView+CLPKittenPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+CLPKittenPlaceholder.h"; path = "../CLPKittenPlaceholder/UIImageView+CLPKittenPlaceholder.h"; sourceTree = "<group>"; };
+		1F56C649186090F1006D2A9D /* UIImageView+CLPKittenPlaceholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+CLPKittenPlaceholder.m"; path = "../CLPKittenPlaceholder/UIImageView+CLPKittenPlaceholder.m"; sourceTree = "<group>"; };
+		1F56C64C18609988006D2A9D /* KTNSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTNSampleViewController.h; sourceTree = "<group>"; };
+		1F56C64D18609988006D2A9D /* KTNSampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTNSampleViewController.m; sourceTree = "<group>"; };
+		1F56C64E18609988006D2A9D /* KTNSampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KTNSampleViewController.xib; sourceTree = "<group>"; };
+		1FA16E5618608EDF00D51806 /* KittenPlaceholderSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KittenPlaceholderSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FA16E5918608EDF00D51806 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1FA16E5B18608EDF00D51806 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1FA16E5D18608EDF00D51806 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1FA16E6118608EDF00D51806 /* KittenPlaceholderSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KittenPlaceholderSample-Info.plist"; sourceTree = "<group>"; };
+		1FA16E6318608EDF00D51806 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1FA16E6518608EDF00D51806 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FA16E6718608EDF00D51806 /* KittenPlaceholderSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KittenPlaceholderSample-Prefix.pch"; sourceTree = "<group>"; };
+		1FA16E6818608EDF00D51806 /* KTNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTNAppDelegate.h; sourceTree = "<group>"; };
+		1FA16E6918608EDF00D51806 /* KTNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTNAppDelegate.m; sourceTree = "<group>"; };
+		1FA16E6B18608EDF00D51806 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1FA16E7118608EDF00D51806 /* KittenPlaceholderSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KittenPlaceholderSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FA16E7218608EDF00D51806 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1FA16E7A18608EDF00D51806 /* KittenPlaceholderSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KittenPlaceholderSampleTests-Info.plist"; sourceTree = "<group>"; };
+		1FA16E7C18608EDF00D51806 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1FA16E7E18608EDF00D51806 /* KittenPlaceholderSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KittenPlaceholderSampleTests.m; sourceTree = "<group>"; };
+		8A816B9F52C84918B231410E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFC84429723B4B24B556F8AF /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FA16E5318608EDF00D51806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA16E5C18608EDF00D51806 /* CoreGraphics.framework in Frameworks */,
+				1FA16E5E18608EDF00D51806 /* UIKit.framework in Frameworks */,
+				1FA16E5A18608EDF00D51806 /* Foundation.framework in Frameworks */,
+				B5AAC7CAECB04853BAF009AB /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA16E6E18608EDF00D51806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA16E7318608EDF00D51806 /* XCTest.framework in Frameworks */,
+				1FA16E7518608EDF00D51806 /* UIKit.framework in Frameworks */,
+				1FA16E7418608EDF00D51806 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F56C64B186090F7006D2A9D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				1F56C648186090F1006D2A9D /* UIImageView+CLPKittenPlaceholder.h */,
+				1F56C649186090F1006D2A9D /* UIImageView+CLPKittenPlaceholder.m */,
+			);
+			name = Categories;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		1FA16E4D18608EDF00D51806 = {
+			isa = PBXGroup;
+			children = (
+				1FA16E5F18608EDF00D51806 /* KittenPlaceholderSample */,
+				1FA16E7818608EDF00D51806 /* KittenPlaceholderSampleTests */,
+				1FA16E5818608EDF00D51806 /* Frameworks */,
+				1FA16E5718608EDF00D51806 /* Products */,
+				FFC84429723B4B24B556F8AF /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		1FA16E5718608EDF00D51806 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FA16E5618608EDF00D51806 /* KittenPlaceholderSample.app */,
+				1FA16E7118608EDF00D51806 /* KittenPlaceholderSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FA16E5818608EDF00D51806 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FA16E5918608EDF00D51806 /* Foundation.framework */,
+				1FA16E5B18608EDF00D51806 /* CoreGraphics.framework */,
+				1FA16E5D18608EDF00D51806 /* UIKit.framework */,
+				1FA16E7218608EDF00D51806 /* XCTest.framework */,
+				8A816B9F52C84918B231410E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FA16E5F18608EDF00D51806 /* KittenPlaceholderSample */ = {
+			isa = PBXGroup;
+			children = (
+				1F56C64B186090F7006D2A9D /* Categories */,
+				1FA16E6818608EDF00D51806 /* KTNAppDelegate.h */,
+				1FA16E6918608EDF00D51806 /* KTNAppDelegate.m */,
+				1F56C64C18609988006D2A9D /* KTNSampleViewController.h */,
+				1F56C64D18609988006D2A9D /* KTNSampleViewController.m */,
+				1F56C64E18609988006D2A9D /* KTNSampleViewController.xib */,
+				1FA16E6B18608EDF00D51806 /* Images.xcassets */,
+				1FA16E6018608EDF00D51806 /* Supporting Files */,
+			);
+			path = KittenPlaceholderSample;
+			sourceTree = "<group>";
+		};
+		1FA16E6018608EDF00D51806 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FA16E6118608EDF00D51806 /* KittenPlaceholderSample-Info.plist */,
+				1FA16E6218608EDF00D51806 /* InfoPlist.strings */,
+				1FA16E6518608EDF00D51806 /* main.m */,
+				1FA16E6718608EDF00D51806 /* KittenPlaceholderSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FA16E7818608EDF00D51806 /* KittenPlaceholderSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FA16E7E18608EDF00D51806 /* KittenPlaceholderSampleTests.m */,
+				1FA16E7918608EDF00D51806 /* Supporting Files */,
+			);
+			path = KittenPlaceholderSampleTests;
+			sourceTree = "<group>";
+		};
+		1FA16E7918608EDF00D51806 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FA16E7A18608EDF00D51806 /* KittenPlaceholderSampleTests-Info.plist */,
+				1FA16E7B18608EDF00D51806 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FA16E5518608EDF00D51806 /* KittenPlaceholderSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FA16E8218608EDF00D51806 /* Build configuration list for PBXNativeTarget "KittenPlaceholderSample" */;
+			buildPhases = (
+				9CAF6AA3011F4DB1AC53DE86 /* Check Pods Manifest.lock */,
+				1FA16E5218608EDF00D51806 /* Sources */,
+				1FA16E5318608EDF00D51806 /* Frameworks */,
+				1FA16E5418608EDF00D51806 /* Resources */,
+				6635D162BEAF445FBB230CF7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KittenPlaceholderSample;
+			productName = KittenPlaceholderSample;
+			productReference = 1FA16E5618608EDF00D51806 /* KittenPlaceholderSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FA16E7018608EDF00D51806 /* KittenPlaceholderSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FA16E8518608EDF00D51806 /* Build configuration list for PBXNativeTarget "KittenPlaceholderSampleTests" */;
+			buildPhases = (
+				1FA16E6D18608EDF00D51806 /* Sources */,
+				1FA16E6E18608EDF00D51806 /* Frameworks */,
+				1FA16E6F18608EDF00D51806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FA16E7718608EDF00D51806 /* PBXTargetDependency */,
+			);
+			name = KittenPlaceholderSampleTests;
+			productName = KittenPlaceholderSampleTests;
+			productReference = 1FA16E7118608EDF00D51806 /* KittenPlaceholderSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FA16E4E18608EDF00D51806 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KTN;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Claptrap, LLC";
+				TargetAttributes = {
+					1FA16E7018608EDF00D51806 = {
+						TestTargetID = 1FA16E5518608EDF00D51806;
+					};
+				};
+			};
+			buildConfigurationList = 1FA16E5118608EDF00D51806 /* Build configuration list for PBXProject "KittenPlaceholderSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1FA16E4D18608EDF00D51806;
+			productRefGroup = 1FA16E5718608EDF00D51806 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FA16E5518608EDF00D51806 /* KittenPlaceholderSample */,
+				1FA16E7018608EDF00D51806 /* KittenPlaceholderSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FA16E5418608EDF00D51806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA16E6418608EDF00D51806 /* InfoPlist.strings in Resources */,
+				1FA16E6C18608EDF00D51806 /* Images.xcassets in Resources */,
+				1F56C65018609988006D2A9D /* KTNSampleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA16E6F18608EDF00D51806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA16E7D18608EDF00D51806 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6635D162BEAF445FBB230CF7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CAF6AA3011F4DB1AC53DE86 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FA16E5218608EDF00D51806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA16E6A18608EDF00D51806 /* KTNAppDelegate.m in Sources */,
+				1F56C64A186090F1006D2A9D /* UIImageView+CLPKittenPlaceholder.m in Sources */,
+				1F56C64F18609988006D2A9D /* KTNSampleViewController.m in Sources */,
+				1FA16E6618608EDF00D51806 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA16E6D18608EDF00D51806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA16E7F18608EDF00D51806 /* KittenPlaceholderSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FA16E7718608EDF00D51806 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FA16E5518608EDF00D51806 /* KittenPlaceholderSample */;
+			targetProxy = 1FA16E7618608EDF00D51806 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FA16E6218608EDF00D51806 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FA16E6318608EDF00D51806 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1FA16E7B18608EDF00D51806 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FA16E7C18608EDF00D51806 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FA16E8018608EDF00D51806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FA16E8118608EDF00D51806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FA16E8318608EDF00D51806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFC84429723B4B24B556F8AF /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KittenPlaceholderSample/KittenPlaceholderSample-Prefix.pch";
+				INFOPLIST_FILE = "KittenPlaceholderSample/KittenPlaceholderSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1FA16E8418608EDF00D51806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFC84429723B4B24B556F8AF /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KittenPlaceholderSample/KittenPlaceholderSample-Prefix.pch";
+				INFOPLIST_FILE = "KittenPlaceholderSample/KittenPlaceholderSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1FA16E8618608EDF00D51806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KittenPlaceholderSample.app/KittenPlaceholderSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KittenPlaceholderSample/KittenPlaceholderSample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KittenPlaceholderSampleTests/KittenPlaceholderSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1FA16E8718608EDF00D51806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KittenPlaceholderSample.app/KittenPlaceholderSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KittenPlaceholderSample/KittenPlaceholderSample-Prefix.pch";
+				INFOPLIST_FILE = "KittenPlaceholderSampleTests/KittenPlaceholderSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FA16E5118608EDF00D51806 /* Build configuration list for PBXProject "KittenPlaceholderSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA16E8018608EDF00D51806 /* Debug */,
+				1FA16E8118608EDF00D51806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FA16E8218608EDF00D51806 /* Build configuration list for PBXNativeTarget "KittenPlaceholderSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA16E8318608EDF00D51806 /* Debug */,
+				1FA16E8418608EDF00D51806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FA16E8518608EDF00D51806 /* Build configuration list for PBXNativeTarget "KittenPlaceholderSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA16E8618608EDF00D51806 /* Debug */,
+				1FA16E8718608EDF00D51806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FA16E4E18608EDF00D51806 /* Project object */;
+}
