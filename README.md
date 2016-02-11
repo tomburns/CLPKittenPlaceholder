@@ -25,5 +25,5 @@ CLPKittenPlaceholder is a category on UIImageView which leverages the awesome po
 	pod 'CLPKittenPlaceholder'
 ```
 
-CLPKittenPlaceholder builds on [AFNetworking](http://afnetworking.com)'s lovely [UIImageView category](http://cocoadocs.org/docsets/AFNetworking/2.0.3/Categories/UIImageView+AFNetworking.html). If you're using Cocoapods, this dependency will be resolved automatically.
+CLPKittenPlaceholder builds on [AFNetworking](http://afnetworking.com)'s lovely [UIImageView category](http://cocoadocs.org/docsets/AFNetworking/2.0.3/Categories/UIImageView+AFNetworking.html). If you're using CocoaPods, this dependency will be resolved automatically.
 
